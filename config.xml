@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.applitter.barcodeScanner"
+    versionCode = "10" 
+    version     = "0.0.1" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Barcode Scanner</name>
+
+    <description>
+      My first phonegap build for ios 
+    </description>
+
+    <author href="http://applitter.com" email="vijayk036@gmail.com">
+      Vijay Kumar
+    </author>
+
+    <!-- We'll include the Barcode plugin as an example -->
+    <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+	<access origin="*"/>
+</widget>
